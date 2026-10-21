@@ -1,0 +1,640 @@
+{
+  "success": true,
+  "data": {
+    "provider": "SpaBooking",
+    "date": "2024-03-15",
+    "services": [
+      {
+        "serviceId": "spa-001",
+        "serviceName": "60-Minute Swedish Massage",
+        "duration": 60,
+        "price": 120,
+        "currency": "USD",
+        "slots": [
+          {
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "available": true,
+            "therapistId": "T001",
+            "therapistName": "Sarah Johnson",
+            "firstName": "Sarah",
+            "lastName": "Johnson",
+            "gender": "female",
+            "certifications": [
+              "Swedish Massage",
+              "Hot Stone",
+              "Aromatherapy"
+            ],
+            "experienceYears": 8,
+            "rating": 4.9,
+            "facilityId": "FAC-MAIN-01",
+            "facilityName": "Main Spa Building",
+            "roomNumber": "101",
+            "roomType": "deluxe",
+            "floor": 1,
+            "bookingFee": 5,
+            "processingFee": 2.5,
+            "specialRequirements": [],
+            "equipmentProvided": [
+              "massage table",
+              "aromatherapy oils",
+              "heated blankets"
+            ],
+            "amenities": [
+              "private bathroom",
+              "shower",
+              "music selection"
+            ],
+            "wheelchairAccessible": true,
+            "slotId": "SLOT-20240315-0900-T001-SPA-001",
+            "yieldId": "YIELD-EARLY-BIRD",
+            "yieldMultiplier": 0.8
+          },
+          {
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "available": true,
+            "therapistId": "T002",
+            "therapistName": "Michael Chen",
+            "firstName": "Michael",
+            "lastName": "Chen",
+            "gender": "male",
+            "certifications": [
+              "Swedish Massage",
+              "Deep Tissue",
+              "Sports Massage"
+            ],
+            "experienceYears": 5,
+            "rating": 4.7,
+            "facilityId": "FAC-MAIN-01",
+            "facilityName": "Main Spa Building",
+            "roomNumber": "102",
+            "roomType": "standard",
+            "floor": 1,
+            "bookingFee": 5,
+            "processingFee": 2.5,
+            "specialRequirements": [],
+            "equipmentProvided": [
+              "massage table",
+              "essential oils"
+            ],
+            "amenities": [
+              "private bathroom",
+              "music selection"
+            ],
+            "wheelchairAccessible": true,
+            "slotId": "SLOT-20240315-1000-T002-SPA-001",
+            "yieldId": "YIELD-MORNING",
+            "yieldMultiplier": 0.88
+          },
+          {
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "available": false,
+            "therapistId": "T001",
+            "therapistName": "Sarah Johnson",
+            "firstName": "Sarah",
+            "lastName": "Johnson",
+            "gender": "female",
+            "certifications": [
+              "Swedish Massage",
+              "Hot Stone",
+              "Aromatherapy"
+            ],
+            "experienceYears": 8,
+            "rating": 4.9,
+            "facilityId": "FAC-MAIN-01",
+            "facilityName": "Main Spa Building",
+            "roomNumber": "101",
+            "roomType": "deluxe",
+            "floor": 1,
+            "bookingFee": 5,
+            "processingFee": 2.5,
+            "specialRequirements": [],
+            "equipmentProvided": [
+              "massage table",
+              "aromatherapy oils",
+              "heated blankets"
+            ],
+            "amenities": [
+              "private bathroom",
+              "shower",
+              "music selection"
+            ],
+            "wheelchairAccessible": true,
+            "slotId": "SLOT-20240315-1100-T001-SPA-001",
+            "yieldId": null,
+            "yieldMultiplier": 1,
+            "bookingId": "BK-2024-03-15-001",
+            "bookedUntil": "2024-03-15T12:00:00Z"
+          },
+          {
+            "startTime": "14:00",
+            "endTime": "15:00",
+            "available": true,
+            "therapistId": "T001",
+            "therapistName": "Sarah Johnson",
+            "firstName": "Sarah",
+            "lastName": "Johnson",
+            "gender": "female",
+            "certifications": [
+              "Swedish Massage",
+              "Hot Stone",
+              "Aromatherapy"
+            ],
+            "experienceYears": 8,
+            "rating": 4.9,
+            "facilityId": "FAC-MAIN-01",
+            "facilityName": "Main Spa Building",
+            "roomNumber": "101",
+            "roomType": "deluxe",
+            "floor": 1,
+            "bookingFee": 5,
+            "processingFee": 2.5,
+            "specialRequirements": [],
+            "equipmentProvided": [
+              "massage table",
+              "aromatherapy oils",
+              "heated blankets"
+            ],
+            "amenities": [
+              "private bathroom",
+              "shower",
+              "music selection"
+            ],
+            "wheelchairAccessible": true,
+            "slotId": "SLOT-20240315-1400-T001-SPA-001",
+            "yieldId": "YIELD-AFTERNOON",
+            "yieldMultiplier": 0.9
+          },
+          {
+            "startTime": "15:00",
+            "endTime": "16:00",
+            "available": true,
+            "therapistId": "T002",
+            "therapistName": "Michael Chen",
+            "firstName": "Michael",
+            "lastName": "Chen",
+            "gender": "male",
+            "certifications": [
+              "Swedish Massage",
+              "Deep Tissue",
+              "Sports Massage"
+            ],
+            "experienceYears": 5,
+            "rating": 4.7,
+            "facilityId": "FAC-MAIN-01",
+            "facilityName": "Main Spa Building",
+            "roomNumber": "102",
+            "roomType": "standard",
+            "floor": 1,
+            "bookingFee": 5,
+            "processingFee": 2.5,
+            "specialRequirements": [],
+            "equipmentProvided": [
+              "massage table",
+              "essential oils"
+            ],
+            "amenities": [
+              "private bathroom",
+              "music selection"
+            ],
+            "wheelchairAccessible": true,
+            "slotId": "SLOT-20240315-1500-T002-SPA-001",
+            "yieldId": "YIELD-AFTERNOON",
+            "yieldMultiplier": 0.9
+          },
+          {
+            "startTime": "16:30",
+            "endTime": "17:30",
+            "available": true,
+            "therapistId": "T001",
+            "therapistName": "Sarah Johnson",
+            "firstName": "Sarah",
+            "lastName": "Johnson",
+            "gender": "female",
+            "certifications": [
+              "Swedish Massage",
+              "Hot Stone",
+              "Aromatherapy"
+            ],
+            "experienceYears": 8,
+            "rating": 4.9,
+            "facilityId": "FAC-MAIN-01",
+            "facilityName": "Main Spa Building",
+            "roomNumber": "101",
+            "roomType": "deluxe",
+            "floor": 1,
+            "bookingFee": 5,
+            "processingFee": 2.5,
+            "specialRequirements": [],
+            "equipmentProvided": [
+              "massage table",
+              "aromatherapy oils",
+              "heated blankets"
+            ],
+            "amenities": [
+              "private bathroom",
+              "shower",
+              "music selection"
+            ],
+            "wheelchairAccessible": true,
+            "slotId": "SLOT-20240315-1630-T001-SPA-001",
+            "yieldId": "YIELD-LATE",
+            "yieldMultiplier": 0.85
+          }
+        ]
+      },
+      {
+        "serviceId": "spa-002",
+        "serviceName": "90-Minute Deep Tissue Massage",
+        "duration": 90,
+        "price": 165,
+        "currency": "USD",
+        "slots": [
+          {
+            "startTime": "09:00",
+            "endTime": "10:30",
+            "available": true,
+            "therapistId": "T003",
+            "therapistName": "Emma Wilson",
+            "firstName": "Emma",
+            "lastName": "Wilson",
+            "gender": "female",
+            "certifications": [
+              "Deep Tissue",
+              "Sports Massage",
+              "Trigger Point Therapy",
+              "Prenatal Massage"
+            ],
+            "experienceYears": 12,
+            "rating": 4.95,
+            "facilityId": "FAC-MAIN-01",
+            "facilityName": "Main Spa Building",
+            "roomNumber": "103",
+            "roomType": "premium",
+            "floor": 1,
+            "bookingFee": 7.5,
+            "processingFee": 3,
+            "specialRequirements": [],
+            "equipmentProvided": [
+              "massage table",
+              "deep tissue tools",
+              "hot towels",
+              "cupping set"
+            ],
+            "amenities": [
+              "private bathroom",
+              "shower",
+              "music selection",
+              "aromatherapy diffuser",
+              "chromotherapy lighting"
+            ],
+            "wheelchairAccessible": true,
+            "slotId": "SLOT-20240315-0900-T003-SPA-002",
+            "yieldId": "YIELD-EARLY-BIRD",
+            "yieldMultiplier": 0.8
+          },
+          {
+            "startTime": "13:00",
+            "endTime": "14:30",
+            "available": true,
+            "therapistId": "T003",
+            "therapistName": "Emma Wilson",
+            "firstName": "Emma",
+            "lastName": "Wilson",
+            "gender": "female",
+            "certifications": [
+              "Deep Tissue",
+              "Sports Massage",
+              "Trigger Point Therapy",
+              "Prenatal Massage"
+            ],
+            "experienceYears": 12,
+            "rating": 4.95,
+            "facilityId": "FAC-MAIN-01",
+            "facilityName": "Main Spa Building",
+            "roomNumber": "103",
+            "roomType": "premium",
+            "floor": 1,
+            "bookingFee": 7.5,
+            "processingFee": 3,
+            "specialRequirements": [],
+            "equipmentProvided": [
+              "massage table",
+              "deep tissue tools",
+              "hot towels",
+              "cupping set"
+            ],
+            "amenities": [
+              "private bathroom",
+              "shower",
+              "music selection",
+              "aromatherapy diffuser",
+              "chromotherapy lighting"
+            ],
+            "wheelchairAccessible": true,
+            "slotId": "SLOT-20240315-1300-T003-SPA-002",
+            "yieldId": "YIELD-PEAK",
+            "yieldMultiplier": 1.15
+          },
+          {
+            "startTime": "15:00",
+            "endTime": "16:30",
+            "available": false,
+            "therapistId": "T003",
+            "therapistName": "Emma Wilson",
+            "firstName": "Emma",
+            "lastName": "Wilson",
+            "gender": "female",
+            "certifications": [
+              "Deep Tissue",
+              "Sports Massage",
+              "Trigger Point Therapy",
+              "Prenatal Massage"
+            ],
+            "experienceYears": 12,
+            "rating": 4.95,
+            "facilityId": "FAC-MAIN-01",
+            "facilityName": "Main Spa Building",
+            "roomNumber": "103",
+            "roomType": "premium",
+            "floor": 1,
+            "bookingFee": 7.5,
+            "processingFee": 3,
+            "specialRequirements": [],
+            "equipmentProvided": [
+              "massage table",
+              "deep tissue tools",
+              "hot towels",
+              "cupping set"
+            ],
+            "amenities": [
+              "private bathroom",
+              "shower",
+              "music selection",
+              "aromatherapy diffuser",
+              "chromotherapy lighting"
+            ],
+            "wheelchairAccessible": true,
+            "slotId": "SLOT-20240315-1500-T003-SPA-002",
+            "yieldId": null,
+            "yieldMultiplier": 1,
+            "bookingId": "BK-2024-03-15-002",
+            "bookedUntil": "2024-03-15T16:30:00Z",
+            "customerNotes": "Requesting focus on lower back"
+          }
+        ]
+      },
+      {
+        "serviceId": "spa-003",
+        "serviceName": "30-Minute Express Facial",
+        "duration": 30,
+        "price": 75,
+        "currency": "USD",
+        "slots": [
+          {
+            "startTime": "10:00",
+            "endTime": "10:30",
+            "available": true,
+            "therapistId": "T004",
+            "therapistName": "Lisa Anderson",
+            "firstName": "Lisa",
+            "lastName": "Anderson",
+            "gender": "female",
+            "certifications": [
+              "Facial Specialist",
+              "Skin Care",
+              "Anti-Aging Treatments"
+            ],
+            "experienceYears": 6,
+            "rating": 4.8,
+            "facilityId": "FAC-EAST-02",
+            "facilityName": "East Wing Wellness Center",
+            "roomNumber": "201",
+            "roomType": "facial_suite",
+            "floor": 2,
+            "bookingFee": 5,
+            "processingFee": 2.5,
+            "specialRequirements": [],
+            "equipmentProvided": [
+              "facial bed",
+              "steamer",
+              "LED light therapy",
+              "skincare products"
+            ],
+            "amenities": [
+              "private bathroom",
+              "robe provided",
+              "facial analysis"
+            ],
+            "wheelchairAccessible": true,
+            "slotId": "SLOT-20240315-1000-T004-SPA-003",
+            "yieldId": "YIELD-MORNING",
+            "yieldMultiplier": 0.88
+          },
+          {
+            "startTime": "10:30",
+            "endTime": "11:00",
+            "available": true,
+            "therapistId": "T004",
+            "therapistName": "Lisa Anderson",
+            "firstName": "Lisa",
+            "lastName": "Anderson",
+            "gender": "female",
+            "certifications": [
+              "Facial Specialist",
+              "Skin Care",
+              "Anti-Aging Treatments"
+            ],
+            "experienceYears": 6,
+            "rating": 4.8,
+            "facilityId": "FAC-EAST-02",
+            "facilityName": "East Wing Wellness Center",
+            "roomNumber": "201",
+            "roomType": "facial_suite",
+            "floor": 2,
+            "bookingFee": 5,
+            "processingFee": 2.5,
+            "specialRequirements": [],
+            "equipmentProvided": [
+              "facial bed",
+              "steamer",
+              "LED light therapy",
+              "skincare products"
+            ],
+            "amenities": [
+              "private bathroom",
+              "robe provided",
+              "facial analysis"
+            ],
+            "wheelchairAccessible": true,
+            "slotId": "SLOT-20240315-1030-T004-SPA-003",
+            "yieldId": "YIELD-MORNING",
+            "yieldMultiplier": 0.88
+          },
+          {
+            "startTime": "11:00",
+            "endTime": "11:30",
+            "available": true,
+            "therapistId": "T004",
+            "therapistName": "Lisa Anderson",
+            "firstName": "Lisa",
+            "lastName": "Anderson",
+            "gender": "female",
+            "certifications": [
+              "Facial Specialist",
+              "Skin Care",
+              "Anti-Aging Treatments"
+            ],
+            "experienceYears": 6,
+            "rating": 4.8,
+            "facilityId": "FAC-EAST-02",
+            "facilityName": "East Wing Wellness Center",
+            "roomNumber": "201",
+            "roomType": "facial_suite",
+            "floor": 2,
+            "bookingFee": 5,
+            "processingFee": 2.5,
+            "specialRequirements": [],
+            "equipmentProvided": [
+              "facial bed",
+              "steamer",
+              "LED light therapy",
+              "skincare products"
+            ],
+            "amenities": [
+              "private bathroom",
+              "robe provided",
+              "facial analysis"
+            ],
+            "wheelchairAccessible": true,
+            "slotId": "SLOT-20240315-1100-T004-SPA-003",
+            "yieldId": "YIELD-STANDARD",
+            "yieldMultiplier": 1
+          },
+          {
+            "startTime": "14:00",
+            "endTime": "14:30",
+            "available": true,
+            "therapistId": "T004",
+            "therapistName": "Lisa Anderson",
+            "firstName": "Lisa",
+            "lastName": "Anderson",
+            "gender": "female",
+            "certifications": [
+              "Facial Specialist",
+              "Skin Care",
+              "Anti-Aging Treatments"
+            ],
+            "experienceYears": 6,
+            "rating": 4.8,
+            "facilityId": "FAC-EAST-02",
+            "facilityName": "East Wing Wellness Center",
+            "roomNumber": "201",
+            "roomType": "facial_suite",
+            "floor": 2,
+            "bookingFee": 5,
+            "processingFee": 2.5,
+            "specialRequirements": [],
+            "equipmentProvided": [
+              "facial bed",
+              "steamer",
+              "LED light therapy",
+              "skincare products"
+            ],
+            "amenities": [
+              "private bathroom",
+              "robe provided",
+              "facial analysis"
+            ],
+            "wheelchairAccessible": true,
+            "slotId": "SLOT-20240315-1400-T004-SPA-003",
+            "yieldId": "YIELD-AFTERNOON",
+            "yieldMultiplier": 0.9
+          },
+          {
+            "startTime": "14:30",
+            "endTime": "15:00",
+            "available": true,
+            "therapistId": "T004",
+            "therapistName": "Lisa Anderson",
+            "firstName": "Lisa",
+            "lastName": "Anderson",
+            "gender": "female",
+            "certifications": [
+              "Facial Specialist",
+              "Skin Care",
+              "Anti-Aging Treatments"
+            ],
+            "experienceYears": 6,
+            "rating": 4.8,
+            "facilityId": "FAC-EAST-02",
+            "facilityName": "East Wing Wellness Center",
+            "roomNumber": "201",
+            "roomType": "facial_suite",
+            "floor": 2,
+            "bookingFee": 5,
+            "processingFee": 2.5,
+            "specialRequirements": [],
+            "equipmentProvided": [
+              "facial bed",
+              "steamer",
+              "LED light therapy",
+              "skincare products"
+            ],
+            "amenities": [
+              "private bathroom",
+              "robe provided",
+              "facial analysis"
+            ],
+            "wheelchairAccessible": true,
+            "slotId": "SLOT-20240315-1430-T004-SPA-003",
+            "yieldId": "YIELD-AFTERNOON",
+            "yieldMultiplier": 0.9
+          },
+          {
+            "startTime": "16:00",
+            "endTime": "16:30",
+            "available": true,
+            "therapistId": "T004",
+            "therapistName": "Lisa Anderson",
+            "firstName": "Lisa",
+            "lastName": "Anderson",
+            "gender": "female",
+            "certifications": [
+              "Facial Specialist",
+              "Skin Care",
+              "Anti-Aging Treatments"
+            ],
+            "experienceYears": 6,
+            "rating": 4.8,
+            "facilityId": "FAC-EAST-02",
+            "facilityName": "East Wing Wellness Center",
+            "roomNumber": "201",
+            "roomType": "facial_suite",
+            "floor": 2,
+            "bookingFee": 5,
+            "processingFee": 2.5,
+            "specialRequirements": [],
+            "equipmentProvided": [
+              "facial bed",
+              "steamer",
+              "LED light therapy",
+              "skincare products"
+            ],
+            "amenities": [
+              "private bathroom",
+              "robe provided",
+              "facial analysis"
+            ],
+            "wheelchairAccessible": true,
+            "slotId": "SLOT-20240315-1600-T004-SPA-003",
+            "yieldId": "YIELD-LATE",
+            "yieldMultiplier": 0.85
+          }
+        ]
+      }
+    ]
+  }
+}

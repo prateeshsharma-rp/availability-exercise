@@ -1,0 +1,11 @@
+node_modules
+dist
+*.sqlite3
+*.sqlite3-journal
+.env
+.env.local
+.git
+.gitignore
+README.md
+rubric/
+coverage

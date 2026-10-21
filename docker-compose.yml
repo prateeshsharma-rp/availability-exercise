@@ -1,0 +1,19 @@
+# Drive this file with the `docker:*` npm scripts (`npm run docker:setup`,
+# `npm run docker:down`, ...) or with plain `docker compose` commands.
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+      - PORT=3000
+      - THIRD_PARTY_API_URL=https://9a3t40rc5h.execute-api.us-west-2.amazonaws.com/prod
+      # Second vendor (ResortActivities). Only used if your interviewer brings it up.
+      - VENDOR_TWO_API_URL=https://9a3t40rc5h.execute-api.us-west-2.amazonaws.com/prod
+    command: npm run dev

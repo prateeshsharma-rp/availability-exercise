@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    // Node runs these .ts files directly (type stripping), so the compiler is
+    // only ever used for checking — never for emitting. `erasableSyntaxOnly`
+    // rejects TypeScript that Node cannot simply erase (enums, namespaces,
+    // parameter properties, `declare` fields).
+    "target": "ES2022",
+    "lib": ["ES2022"],
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "noEmit": true,
+    "erasableSyntaxOnly": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "allowImportingTsExtensions": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src/**/*",
+    "tests/**/*",
+    "migrations/**/*",
+    "seeds/**/*",
+    "knexfile.mts"
+  ],
+  "exclude": ["node_modules"]
+}

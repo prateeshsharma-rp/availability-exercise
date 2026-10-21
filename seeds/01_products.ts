@@ -1,0 +1,40 @@
+import type { Knex } from "knex";
+
+export async function seed(knex: Knex): Promise<void> {
+  // Clear tables in FK-safe order
+  await knex('product_timeslot_details').del();
+  await knex('product_timeslots').del();
+  await knex('inventory').del();
+  await knex('products').del();
+
+  await knex('products').insert([
+    // Internal products (availability tracked in the inventory table)
+    {
+      external_id: 'pool-pass-001',
+      name: 'Pool Day Pass - Weekday',
+      description: 'Full-day access to the resort pool, Monday through Friday',
+      base_price: 45.0,
+      currency: 'USD',
+      active: true,
+    },
+    {
+      external_id: 'cabana-001',
+      name: 'Poolside Cabana',
+      description: 'Private poolside cabana with seating for up to 6 guests',
+      base_price: 250.0,
+      currency: 'USD',
+      active: true,
+    },
+    {
+      external_id: 'gym-pass-001',
+      name: 'Fitness Center Day Pass',
+      description: 'Full-day access to the fitness center and locker rooms',
+      base_price: 25.0,
+      currency: 'USD',
+      active: true,
+    },
+
+    // Time-slotted services are not seeded — they come from the 3rd-party
+    // provider, so the integration creates those product rows.
+  ]);
+}

@@ -1,0 +1,66 @@
+{
+  "vendor": "ResortActivities",
+  "api_version": "1.2",
+  "activities": [
+    {
+      "activity_code": "YOGA-SUNRISE",
+      "activity_name": "Sunrise Beach Yoga",
+      "description": "Start your day with an invigorating yoga session on the beach as the sun rises over the ocean.",
+      "duration_minutes": 60,
+      "location": {
+        "code": "BEACH-N",
+        "name": "North Beach"
+      },
+      "price_cents": 3500,
+      "currency_code": "USD",
+      "capacity": 20,
+      "difficulty": "beginner",
+      "category": "wellness",
+      "equipment_provided": true,
+      "what_to_bring": [
+        "water bottle",
+        "sunscreen",
+        "towel"
+      ]
+    },
+    {
+      "activity_code": "SNORKEL-TOUR",
+      "activity_name": "Guided Reef Snorkel Tour",
+      "description": "Explore vibrant coral reefs with an expert marine naturalist guide.",
+      "duration_minutes": 90,
+      "location": {
+        "code": "MARINA-DOCK-2",
+        "name": "Marina Dock 2"
+      },
+      "price_cents": 8900,
+      "currency_code": "USD",
+      "capacity": 8,
+      "difficulty": "intermediate",
+      "category": "water_sports",
+      "equipment_provided": true,
+      "what_to_bring": [
+        "swimsuit",
+        "reef-safe sunscreen",
+        "underwater camera (optional)"
+      ]
+    },
+    {
+      "activity_code": "MIXOLOGY-101",
+      "activity_name": "Poolside Mixology Class",
+      "description": "Learn to craft tropical cocktails from our expert bartenders by the pool.",
+      "duration_minutes": 60,
+      "location": {
+        "code": "POOL-BAR",
+        "name": "Main Pool Bar"
+      },
+      "price_cents": 6500,
+      "currency_code": "USD",
+      "capacity": 12,
+      "difficulty": "beginner",
+      "category": "culinary",
+      "equipment_provided": true,
+      "what_to_bring": [],
+      "age_requirement": 21
+    }
+  ]
+}
